@@ -1,0 +1,176 @@
+/* styles.css 
+   Project: 
+   Author: 
+   Date: 
+	
+   Helpful links: 
+   	Web colors: 
+   		https://en.wikipedia.org/wiki/Web_colors#X11_color_names
+	Color picker tool:
+		https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+		http://colorpicker.com
+
+*/
+
+@font-face {
+    font-family: "LA Headline";
+    src: url('../fonts-lat/laheadline.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'LA Web Display Kis Bold';
+    src: url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.eot');
+    src: url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.eot?#iefix') format('embedded-opentype'),
+         url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.woff') format('woff'),
+         url('https://s3.amazonaws.com/latimes-datadesk-template/fonts/0.3.1/laheadline.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Belizio Regular";
+    src: url('../fonts-lat/belizio-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Benton Sans Regular";
+    src: url('../fonts-lat/BentonSans-Regular.otf') format("truetype");
+}
+
+@font-face {
+    font-family: "Benton Gothic Bold";
+    src: url('../fonts-lat/benton-gothic-bold.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Benton Gothic Regular";
+    src: url('../fonts-lat/benton-gothic-regular.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Belizio Narrow";
+    src: url('../fonts-lat/belizio-narrow-semibold.ttf') format("truetype");
+}
+
+body {
+  margin: auto;
+  width: 630px;
+}
+
+h1 {
+  font-family: "LA Headline";
+  font-size: 3em;
+}
+
+.author {
+  color: #FF5443;
+  font-family: Georgia;
+}
+
+.byline {
+  font-family: 'LA Web Display Kis Bold', Georgia, serif;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+.dateline {
+  font-family: 'Benton Sans Regular';
+  font-size: 0.8em;
+}
+
+#text-container {
+  font-family: Georgia;
+  color: #333333;
+}
+
+.text-subhead {
+  font-family: 'LA Web Display Kis Bold', Georgia, serif;
+}
+
+.dropcap {
+  font-size: 1.5em;
+  font-family: 'Belizio Narrow', serif;
+}
+
+#container {
+/*  width: 50%; */
+}
+
+.mood-headers {
+  font-family: "Benton Gothic Bold";
+
+}
+
+.w3-validate {
+  font-family: "Benton Gothic Regular";
+}
+
+.mood-headers input[type="radio"] {
+  display: none; /*removes original button*/
+}
+
+.result-header {
+  font-family: "Benton Gothic Regular";
+  size: 1.1em;
+}
+
+#submitBtn {
+  margin-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  border: 2px solid #FF5443;
+  color: #FF5443;
+  border-radius: 5px;
+  font-family: "Benton Gothic Regular";
+  padding: 5px;
+  cursor: pointer;
+}
+
+.card {
+  width: 50%;
+  border: 1px solid #999999;
+  padding: 5px;
+  margin: 10px;
+}
+
+.cardname {
+  font-size: 1.6em;
+  color: #999999;
+  font-family: "Benton Gothic Bold";
+}
+
+.top p {
+  font-family: "Benton Gothic Bold";
+  font-size: 1.1em;
+}
+
+#sum-userPref {
+  border-radius: 5px;
+  background-color: #D8D8D8;
+  height: 40px;
+  position: absolute;;
+}
+
+#sum-score {
+  border-radius: 5px;
+  background-color: #4591B8;
+  height: 40px;
+  position: relative;
+}
+
+#pct-match {
+  font-size: 2em;
+  font-family: "Benton Gothic Bold";
+  color: #FF5443;
+}
+
+img {
+  width: 20px;
+  height: 20px;
+}
+
+.mood-result {
+  width: 100px;
+}
+
+
