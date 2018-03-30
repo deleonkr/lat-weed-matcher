@@ -12,6 +12,10 @@
 
 */
 
+
+/* mess around with some media queries */
+
+
 @font-face {
     font-family: "LA Headline";
     src: url('../fonts-lat/laheadline.ttf') format("truetype");
@@ -55,11 +59,12 @@
 body {
   margin: auto;
   width: 630px;
+  line-height: 25px;
 }
 
 h1 {
   font-family: "LA Headline";
-  font-size: 3em;
+  font-size: 2.4em;
 }
 
 .author {
@@ -69,7 +74,7 @@ h1 {
 
 .byline {
   font-family: 'LA Web Display Kis Bold', Georgia, serif;
-  font-size: 1em;
+  font-size: 0.8em;
   font-weight: bold;
 }
 
@@ -101,42 +106,53 @@ h1 {
 
 }
 
+.dot {
+  cursor: pointer;
+  border: 2px solid black;
+}
+
+input[type=radio] {
+  height: 50px;
+  width: 50px;
+}
+
+.w3-check {
+  cursor: pointer;
+}
+
 .w3-validate {
   font-family: "Benton Gothic Regular";
 }
 
-.mood-headers input[type="radio"] {
-  display: none; /*removes original button*/
-}
-
-.result-header {
-  font-family: "Benton Gothic Regular";
-  size: 1.1em;
+#result-header {
+  font-family: 'Benton Gothic Regular';
+  size: 0.8em;
 }
 
 #submitBtn {
   margin-left: 10px;
   margin-top: 30px;
   margin-bottom: 20px;
-  border: 2px solid #FF5443;
-  color: #FF5443;
+  border: 3px solid #294F70;
+  color: #294F70;
   border-radius: 5px;
-  font-family: "Benton Gothic Regular";
+  font-family: "Benton Gothic Bold";
   padding: 5px;
   cursor: pointer;
 }
 
 .card {
-  width: 50%;
+  width: 70%;
   border: 1px solid #999999;
   padding: 5px;
   margin: 10px;
+  box-shadow: 5px 10px 8px #888888;
 }
 
 .cardname {
   font-size: 1.6em;
-  color: #999999;
-  font-family: "Benton Gothic Bold";
+  color: #FF5443;
+  font-family: "Benton Gothic Regular";
 }
 
 .top p {
@@ -173,4 +189,8 @@ img {
   width: 100px;
 }
 
-
+.mood-result p{
+  font-family: "Benton Gothic Regular";
+  font-size: 1em;
+  color: #333333;
+}
