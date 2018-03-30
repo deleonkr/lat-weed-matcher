@@ -13,24 +13,6 @@
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
   </head>
 
-<!--  <head>
-    <title>Project: </title>
-    
-
-	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/css/ngux-tophat-1.2.3.min.css" />
-	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/bootstrap/2.3.2/css/bootstrap-responsive.min.css" />
-	<link rel="stylesheet" type="text/css" href="//d1qqc1e9kvmdh8.cloudfront.net/css/ngux-tophat-responsive-1.2.3.min.css" />
-	<link href="css/normalize.css" rel="stylesheet" type="text/css">
-	<link href="css/jqueryui.css" rel="stylesheet" type="text/css">
-	<link href="css/styles.css" rel="stylesheet" type="text/css">
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/solid.js" integrity="sha384-+Ga2s7YBbhOD6nie0DzrZpJes+b2K1xkpKxTFFcx59QmVPaSA8c7pycsNaFwUK6l" crossorigin="anonymous"></script>
-	<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/fontawesome.js" integrity="sha384-7ox8Q2yzO/uWircfojVuCQOZl+ZZBg2D2J5nkpLqzH1HY0C1dHlTKIbpRz/LG23c" crossorigin="anonymous"></script>
-
-
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head> -->
-
   <body>
 
 	<header class="center mobile-force-center">
@@ -47,6 +29,7 @@
 
 	<div id="subhead">A guide to figure out how different weed strains may affect your body<div>
 
+	<!-- TEXT SECTION -->
 	<div id="text-container" class="align-content">
 
 		<p><span class="dropcap">W</span>hen looking for the type of weed you want versus the weed you need, finding a place to start can be a little confusing. After all, there are over 770 known variants of cannabis, and they can be used for recreational or medical purposes. Whether it's physical, mental or health-related, there's probably some type of marijuana that can cater to your needs.</p>
@@ -65,7 +48,7 @@
 
 		<p>There are three primary ways: inhalation, orally or topically.</p>
 
-		<p>Inhalation is the fastest way to receive the effects of marijuana, because once inhaled, the cannabinoids enter the lungs and are then travel to and throughout the bloodstream. Inhalation also makes overconsumption less likely for consumers. The two ways to inhale marijuana are via smoking and vaporizing. Mechanically, consumers can smoke in a variety of different fashions including rolling up a joint or blunt, via a pipe or bong and even through a carved fruit, like an apple. Smoking involves burning the marijuana flowers and inhaling the active component released.</p>
+		<p>Inhalation is the fastest way to receive the effects of marijuana, because once inhaled, the cannabinoids enter the lungs and then travel to and throughout the bloodstream. Inhalation also makes overconsumption less likely for consumers. The two ways to inhale marijuana are via smoking and vaporizing. Mechanically, consumers can smoke in a variety of different fashions including rolling up a joint or blunt, via a pipe or bong and even through a carved fruit, like an apple. Smoking involves burning the marijuana flowers and inhaling the active component released.</p>
 
 		<p>While vaporization is similar, the flowers are not burning and instead heated to a point at which the ingredient are released into a vapor that is then inhaled. This process is often looked at as being healthier, because there is less throat and lung irritation from the absence of the burning marijuana flowers.</p>
 
@@ -79,9 +62,7 @@
 	</div>
 
 
-
-
-
+	<!-- INTERACTIVE SECTION -->
 	<div id="container">
 
 		<div id="user-filter">
@@ -90,47 +71,48 @@
 
 				<h3 class="mood-headers">Happy</h3>
 				<form action="" class="happyMood">
-				  <input type="radio" name="happy" value="1">
-				  <input type="radio" name="happy" value="2">
-				  <input type="radio" name="happy" value="3">
-				  <input type="radio" name="happy" value="4">
-				  <input type="radio" name="happy" value="5">
+				  <input class="dot" type="radio" name="happy" id="happy1" value="1">
+				<!--  <label for="happy1"><span class="radio"></label> -->
+				  <input class="dot" type="radio" name="happy" id="happy2" value="2">
+				  <input class="dot" type="radio" name="happy" id="happy3" value="3">
+				  <input class="dot" type="radio" name="happy" id="happy4" value="4">
+				  <input class="dot" type="radio" name="happy" id="happy5" value="5">
 				</form>
 
 				<h3 class="mood-headers">Euphoric</h3>
 				<form action="" class="euphoricMood">
-				  <input type="radio" name="euphoric" value="1">
-				  <input type="radio" name="euphoric" value="2">
-				  <input type="radio" name="euphoric" value="3">
-				  <input type="radio" name="euphoric" value="4">
-				  <input type="radio" name="euphoric" value="5">
+				  <input class="dot" type="radio" name="euphoric" value="1">
+				  <input class="dot" type="radio" name="euphoric" value="2">
+				  <input class="dot" type="radio" name="euphoric" value="3">
+				  <input class="dot" type="radio" name="euphoric" value="4">
+				  <input class="dot" type="radio" name="euphoric" value="5">
 				</form>
 
 				<h3 class="mood-headers">Energetic</h3>
 				<form action="" class="energeticMood">
-				  <input type="radio" name="energetic" value="1">
-				  <input type="radio" name="energetic" value="2">
-				  <input type="radio" name="energetic" value="3">
-				  <input type="radio" name="energetic" value="4">
-				  <input type="radio" name="energetic" value="5">
+				  <input class="dot" type="radio" name="energetic" value="1">
+				  <input class="dot" type="radio" name="energetic" value="2">
+				  <input class="dot" type="radio" name="energetic" value="3">
+				  <input class="dot" type="radio" name="energetic" value="4">
+				  <input class="dot" type="radio" name="energetic" value="5">
 				</form>
 
 				<h3 class="mood-headers">Sleepy</h3>
 				<form action="" class="sleepyMood">
-				  <input type="radio" name="sleepy" value="1">
-				  <input type="radio" name="sleepy" value="2">
-				  <input type="radio" name="sleepy" value="3">
-				  <input type="radio" name="sleepy" value="4">
-				  <input type="radio" name="sleepy" value="5">
+				  <input class="dot" type="radio" name="sleepy" value="1">
+				  <input class="dot" type="radio" name="sleepy" value="2">
+				  <input class="dot" type="radio" name="sleepy" value="3">
+				  <input class="dot" type="radio" name="sleepy" value="4">
+				  <input class="dot" type="radio" name="sleepy" value="5">
 				</form>
 
 				<h3 class="mood-headers">Relaxed</h3>
 				<form action="" class="relaxedMood">
-				  <input type="radio" name="relaxed" value="1">
-				  <input type="radio" name="relaxed" value="2">
-				  <input type="radio" name="relaxed" value="3">
-				  <input type="radio" name="relaxed" value="4">
-				  <input type="radio" name="relaxed" value="5">
+				  <input class="dot" type="radio" name="relaxed" value="1">
+				  <input class="dot" type="radio" name="relaxed" value="2">
+				  <input class="dot" type="radio" name="relaxed" value="3">
+				  <input class="dot" type="radio" name="relaxed" value="4">
+				  <input class="dot" type="radio" name="relaxed" value="5">
 				</form>
 			</div>
 
@@ -178,8 +160,8 @@
 		</div>
 
 		<div id="user-results">
-			<h2 class="result-header">Here are the best matches for the high you want:</h2>
-			<div class="result-cards">
+			<h2 id="result-header">Here are the best matches for the high you want:</h2>
+			<div id="result-cards">
 			</div>
 		</div>
 
@@ -195,7 +177,3 @@
 	<script src="js/script.js"></script>
   </body>
 </html>
-
-
-<!-- photos courtesy of Sarah Soutoul (copyright) -->
-<!-- soar.mp4 courtesy of Keith Plocek (copyright) -->
