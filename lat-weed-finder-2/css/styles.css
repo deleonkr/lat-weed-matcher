@@ -83,7 +83,7 @@ h1 {
   font-size: 0.8em;
 }
 
-#text-container {
+#text-container, #subhead {
   font-family: Georgia;
   color: #333333;
 }
@@ -93,12 +93,13 @@ h1 {
 }
 
 .dropcap {
-  font-size: 1.5em;
+  font-size: 3em;
   font-family: 'Belizio Narrow', serif;
 }
 
-#container {
-/*  width: 50%; */
+#interactive-container {
+    width: 80%;
+    margin: auto;
 }
 
 .mood-headers {
@@ -112,8 +113,8 @@ h1 {
 }
 
 input[type=radio] {
-  height: 50px;
-  width: 50px;
+  height: 30px;
+  width: 30px;
 }
 
 .w3-check {
@@ -124,15 +125,42 @@ input[type=radio] {
   font-family: "Benton Gothic Regular";
 }
 
+.disclaimer-header {
+  font-family: "Benton Gothic Regular";
+  font-size: 1.6em;
+  color: #294F70;
+}
+
+.disclaimer {
+  font-family: "Benton Gothic Regular";
+}
+
+#results-container {
+    position: relative;
+    width: 80%;
+    margin: auto;
+}
+
+#results {
+    position: relative;
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+
 #result-header {
   font-family: 'Benton Gothic Regular';
   size: 0.8em;
 }
 
 #submitBtn {
-  margin-left: 10px;
+  margin-left: 30%;
   margin-top: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 20px; 
   border: 3px solid #294F70;
   color: #294F70;
   border-radius: 5px;
@@ -141,12 +169,13 @@ input[type=radio] {
   cursor: pointer;
 }
 
-.card {
+#card {
   width: 70%;
   border: 1px solid #999999;
-  padding: 5px;
+  padding: 10px;
   margin: 10px;
-  box-shadow: 5px 10px 8px #888888;
+  box-shadow: 1px 1px 4px rgba(0,0,0,.3);
+  background-color: #f8f8f8;
 }
 
 .cardname {
@@ -155,24 +184,50 @@ input[type=radio] {
   font-family: "Benton Gothic Regular";
 }
 
-.top p {
+.card-text {
   font-family: "Benton Gothic Bold";
-  font-size: 1.1em;
+  font-size: 1em;
 }
 
-#sum-userPref {
+.card-text-rate {
+  font-family: "Benton Gothic Bold";
+  font-size: 1em;
+  color: #294F70;
+}
+
+.rate-background {
   border-radius: 5px;
   background-color: #D8D8D8;
   height: 40px;
-  position: absolute;;
 }
 
-#sum-score {
+.rate-bar {
   border-radius: 5px;
   background-color: #4591B8;
   height: 40px;
-  position: relative;
+  color: #FF5443;
 }
+
+.rate-bar h4 {
+  padding: 10px;
+  text-align: center;
+}
+
+.strain-type {
+  font-family: "Benton Gothic Bold";
+  font-size: 1em;
+}
+
+.cbd-rate {
+  font-family: "Benton Gothic Bold";
+  font-size: 1em;
+}
+
+.thc-rate {
+  font-family: "Benton Gothic Bold";
+  font-size: 1em;
+}
+
 
 #pct-match {
   font-size: 2em;
